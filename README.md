@@ -19,7 +19,7 @@ chmod +x install.sh bitcoin_finder.py
 ./install.sh
 
 
-## 💰 Endereços Ricos
+🔗 💰 Endereços Ricos
 
 Os Endereços Ricos podem ser baixados pela URL:
 https://github.com/Pymmdrza/Rich-Address-Wallet.git
