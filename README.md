@@ -1,3 +1,5 @@
+![Logo Bitcoin](https://raw.githubusercontent.com/AdrianoBduz/Bitcoin/main/images/logo.png)
+
 Bitcoin Address Finder
 ======================
 
