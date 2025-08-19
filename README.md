@@ -1,4 +1,6 @@
-![Logo Bitcoin](https://raw.githubusercontent.com/AdrianoBduz/Bitcoin/main/images/logo.png)
+<div align="center">
+  <img src="https://raw.githubusercontent.com/AdrianoBduz/Imagens/main/Screenshot_20250819_131436_Termux.jpg" width="600" alt="Screenshot do Termux">
+</div>
 
 Bitcoin Address Finder
 ======================
