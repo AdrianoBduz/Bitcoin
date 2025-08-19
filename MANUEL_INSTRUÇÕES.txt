@@ -1,0 +1,155 @@
+╔══════════════════════════════════════════════════════════════╗
+║                MANUAL DE INSTRUÇÕES                         ║
+║               BITCOIN ADDRESS FINDER                        ║
+║               Termux Professional Edition                   ║
+╚══════════════════════════════════════════════════════════════╝
+
+📅 Data: AGO/ 2025
+🌐 Versão: 2.0.0
+👨‍💻 Desenvolvido por: Amazon_Dev
+📂 GitHub: https://github.com/AdrianoBduz/Bitcoin
+
+===============================================================
+1. APLICATIVOS NECESSÁRIOS
+===============================================================
+
+📱 F-DROID (Loja de aplicativos livre):
+• Download: https://f-droid.org/
+• Função: Instalar o Termux de forma segura
+
+📟 Termux (Terminal para Android):
+• Disponível no F-DROID
+• Versão recomendada: 0.118.0 ou superior
+• Função: Ambiente de execução do script
+
+===============================================================
+2. COMANDOS DE INSTALAÇÃO E EXECUÇÃO
+===============================================================
+
+🔧 ETAPA 1: Instalação do Termux
+• Baixe e instale o F-DROID
+• No F-DROID, pesquise por "Termux" e instale
+
+🔧 ETAPA 2: Preparação do Termux
+Abra o Termux e execute:
+
+pkg update
+pkg upgrade -y
+pkg install python -y
+pkg install git -y
+pkg install wget -y
+
+🔧 ETAPA 3: Download do Script
+git clone https://github.com/AdrianoBduz/Bitcoin.git
+cd Bitcoin
+
+🔧 ETAPA 4: Permissões de Execução
+chmod +x install.sh
+chmod +x bitcoin_finder.py
+
+🔧 ETAPA 5: Instalação das Dependências
+./install.sh
+
+🔧 ETAPA 6: Preparar Arquivos Necessários
+• Crie/copie o arquivo wordlist.txt com 2048 palavras BIP39
+• Crie/copie o arquivo P2PKH.txt com endereços Bitcoin
+
+🔧 ETAPA 7: Executar o Script
+python bitcoin_finder.py
+
+===============================================================
+3. ARQUIVOS NECESSÁRIOS
+===============================================================
+
+📄 wordlist.txt:
+• Lista de 2048 palavras em inglês do padrão BIP39
+• Formato: Uma palavra por linha
+• Exemplo: 
+  abandon
+  ability
+  able
+  about
+  above
+  ...
+
+📄 P2PKH.txt:
+• Lista de endereços Bitcoin existentes (formato P2PKH)
+• Formato: Um endereço por linha
+• Exemplo:
+  1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa
+  1BitcoinEaterAddressDontSendf59kuE
+  ...
+
+===============================================================
+4. COMANDOS ÚTEIS DURANTE A EXECUÇÃO
+===============================================================
+
+⏸️  Pausar execução: Ctrl+Z
+▶️  Continuar execução: fg
+⏹️  Parar completamente: Ctrl+C
+📊 Ver progresso: cat progress.json
+📈 Ver estatísticas: cat estatisticas.json
+📋 Ver logs: cat execution.log
+
+===============================================================
+5. MONITORAMENTO DO SISTEMA
+===============================================================
+
+📊 Ver uso de CPU/Memória:
+top
+
+📁 Ver espaço em disco:
+df -h
+
+🔍 Ver processos em execução:
+ps aux
+
+📶 Ver uso de rede:
+netstat -tuln
+
+===============================================================
+6. SOLUÇÃO DE PROBLEMAS
+===============================================================
+
+❌ Erro: "Arquivo não encontrado"
+• Verifique se wordlist.txt e P2PKH.txt estão no diretório
+
+❌ Erro: "Permission denied"
+• Execute: chmod +x bitcoin_finder.py
+
+❌ Erro: "Python not found"
+• Execute: pkg install python -y
+
+❌ Script muito lento:
+• Feche outros aplicativos
+• Conecte o carregador
+• Use termux-wake-lock
+
+===============================================================
+7. SEGURANÇA E AVISOS
+===============================================================
+
+⚠️  AVISO LEGAL:
+• Este software é para fins educacionais e de pesquisa
+• Verifique a legalidade em sua jurisdição
+• Não use para atividades ilegais
+
+🔒 SEGURANÇA:
+• Mantenha o Termux atualizado
+• Não execute scripts de fontes desconhecidas
+• Monitore o aquecimento do dispositivo
+
+📞 SUPORTE:
+• GitHub: https://github.com/AdrianoBduz/Bitcoin
+• Issues: https://github.com/AdrianoBduz/Bitcoin/issues
+
+===============================================================
+8. ATUALIZAÇÕES
+===============================================================
+
+🔄 Para atualizar o script:
+cd Bitcoin
+git pull
+python bitcoin_finder.py
+
+✨ Obrigado por usar o Bitcoin Address Finder!
