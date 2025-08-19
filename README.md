@@ -13,10 +13,10 @@ CARACTERÍSTICAS
 
 INSTALAÇÃO
 ----------
-git clone https://github.com/AdrianoBduz/Bitcoin.git
-cd Bitcoin
-chmod +x install.sh bitcoin_finder.py
-./install.sh
+- git clone https://github.com/AdrianoBduz/Bitcoin.git
+- cd Bitcoin
+- chmod +x install.sh bitcoin_finder.py
+- ./install.sh
 
 ENDEREÇOS RICOS
 ---------------
@@ -26,14 +26,12 @@ https://github.com/Pymmdrza/Rich-Address-Wallet.git
 ESTRUTURA DO PROJETO
 --------------------
 Bitcoin/
-  bitcoin_finder.py
-  install.sh
-  requirements.txt
-  MANUAL_INSTALACAO.txt
-  EXPLICACAO_TECNICA.txt
-  README.md
-  docs/
-  examples/
+-  bitcoin_finder.py
+-  install.sh
+-  requirements.txt
+-  MANUAL_INSTALACAO.txt
+-  EXPLICACAO_TECNICA.txt
+-  README.md  
 
 AVISO LEGAL
 -----------
